@@ -777,6 +777,9 @@ func step5a(s []rune) []rune {
 	// Initialize.
 		lenS := len(s)
 		result := s
+		if lenS < 2 {
+			return result
+		}
 
 
 	// Do it!
